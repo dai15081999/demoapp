@@ -1,0 +1,19 @@
+.skeleton {
+    height: 300px;
+    width: 100%;
+    padding: 10px;
+    opacity: .7;
+    animation: skeleton-loading 1s linear infinite alternate;
+    box-shadow: 0 0 30px 30px rgba(255,255,255,0.2);
+
+}
+
+@keyframes skeleton-loading {
+    0% {
+      background-color: hsl(200, 20%, 70%);
+    }
+  
+    100% {
+      background-color: hsl(200, 20%, 95%);
+    }
+  }

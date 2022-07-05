@@ -1,0 +1,136 @@
+.details {
+    display: flex;
+    margin: 50px auto;
+    width: 1200px;
+    background-color: white;
+    height: 70vh;
+    padding: 10px;
+}
+
+.details .left {
+    flex: 1.5;
+}
+
+.details .left img{
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+}
+
+.details .right {
+    flex: 2.5;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+}
+
+.details .right .title {
+    color: rgb(26, 26, 26);
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    border-bottom: 1px solid rgb(26, 26, 26);
+}
+
+.details .right .title i {
+    color: rgba(0, 119, 255, 0.753);
+}
+
+.details .right .price {
+    padding: 4px;
+    border: 1px solid white;
+    border-radius: 5px;
+    width: 200px;
+    background-color: #cd1818;
+    margin-bottom: 20px;
+    outline: none;
+    font-size: 18px;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+}
+
+.details .right .brand {
+    color: rgb(26, 26, 26);
+    
+}
+
+.details .right .desc {
+    color: rgba(0, 0, 0, 0.705);
+    font-style: italic;
+    padding-bottom: 5px ;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+
+.details .right .desc i {
+    color: rgba(0, 119, 255, 0.753);
+}
+
+.options {
+    margin-top: 10px;
+    margin-top: 70px;
+    align-items: center;
+}
+.amount {
+    display: flex;
+    align-items: center;
+    margin-right: 50px;
+}
+
+.amount p {
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+}
+
+.amount button {
+    padding: 5px;
+    border-radius: 5px;
+    width: 100px;
+    border: none;
+    background-color: #0664f9;
+    cursor: pointer;
+    outline: none;
+    font-size: 19px;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+}
+
+.addcart {
+    margin-top: 20px;
+    margin-left: -12px;
+}
+
+.addcart button {
+    padding:17px 7px;
+    border: 1px solid white;
+    border-radius: 5px;
+    width: 250px;
+    background-color: #cd1818;
+    cursor: pointer;
+    outline: none;
+    font-size: 13px;
+    font-weight: 700;
+    margin: 0 10px;
+    color: white;
+}
+
+
+.amount input {
+    padding: 7px;
+    border: 1px solid rgb(216, 24, 24);
+    border-radius: 5px;
+    margin: 0 6px;
+    width: 100px;
+    outline: none;
+    font-size: 18px;
+    -webkit-appearance: none;
+    font-weight: 700;
+    color: rgb(102, 102, 102);
+}
+
+.sold {
+    color: grey;
+    font-size: 14px;
+    margin-bottom: 7px;
+}
+

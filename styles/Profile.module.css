@@ -1,0 +1,145 @@
+.profile {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    padding: 12px;
+    height: 40vh;
+}
+
+.avatar {
+    margin-right: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.avatar button {
+    border: none;
+    outline: none;
+    padding: 5px;
+    background-color: #21cd189e;
+    margin-top: 12px;
+    color: white;
+    cursor: pointer;
+}
+
+.avatar img{
+    width: 140px;
+    object-fit: cover;
+    height: 140px;
+    border-radius: 50%;
+    border: 5px solid grey;
+    padding: 2px;
+    cursor: pointer;
+}
+
+.description_user {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.description_user h1 {
+    font-size: 19px;
+    color: gray;
+    margin-bottom: 10px;
+}
+
+.description_user h1 span {
+    color: #21cd189e;
+}
+
+.description_user h2 {
+    font-size: 19px;
+    margin-bottom: 10px;
+    color: grey;
+}
+ 
+.description_user h2 span {
+    color: #21cd189e;
+}
+
+.description_user h5 {
+    color: rgb(25, 136, 233);
+}
+
+.onchange {
+    padding: 12px;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-left: -330px;
+}
+
+.box div {
+    display: flex;
+    flex-direction: column;
+    margin: 0 20px;
+}
+
+.box div span {
+    font-size: 12px;
+    text-transform: uppercase;
+    color: rgb(25, 136, 233);
+    margin-bottom: 10px;
+}
+
+.box div input {
+    border: none;
+    outline: none;
+    margin-bottom: 10px;
+    padding: 6px 4px;
+    color: grey;
+    border: 2px solid #21cd189e;
+} 
+
+.box div button {
+    border: none;
+    outline: none;
+    padding: 5px;
+    background-color: #21cd189e;
+    color: white;
+    cursor: pointer;
+    transition: .4s;
+    border: 2px solid white;
+}
+
+.box div button:hover {
+    border: none;
+    outline: none;
+    padding: 5px;
+    background-color: white;
+    color: rgb(25, 136, 233);
+    cursor: pointer;
+    border: 2px solid #21cd189e;
+}
+
+.logoutbtn {
+    margin-top: 10px;
+    padding: 7px;
+    background-color: #21cd189e;
+    color: white;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+.box div textarea {
+    border: none;
+    outline: none;
+    width: 200px;
+    padding: 5px;
+    border: 2px solid #21cd189e;
+    resize: none;
+    height: 200px;
+    margin-bottom: 10px;
+}

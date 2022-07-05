@@ -1,0 +1,61 @@
+
+.thongke {
+    width: 100%;
+    margin: 40px auto;
+    background-color: white;
+    border-radius: 10px;
+    height: 80vh;
+    display: flex;
+    padding: 10px;
+}
+
+.navLeft {
+    background-color: #d9d9d9a1;
+    width: 100%;
+    flex: 1;
+    border-radius: 10px;
+}
+.navright {
+    width: 100%;
+    flex: 5;
+    background-color: white;
+    margin-left: 15px;
+    border-radius: 10px;
+    height: 100%;
+}
+
+.menu_admin {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    padding: 5px;
+}
+
+.menu_admin li{
+  margin: 15px 0;
+  transition: .5s;
+  border-radius: 3px;
+  cursor: pointer;
+  padding: 9px 5px;
+}
+
+.menu_admin li a {
+  margin-left: 12px;
+  font-size: 16px;
+  font-weight: bold;
+  color: black;
+  transition: .4s;
+}
+
+.menu_admin li i {
+    color: #cd1818;
+}
+
+.menu_admin li:hover {
+    background-color: rgba(17, 17, 17, 0.556);
+}
+
+
+.menu_admin li:hover a {
+    color: white;
+}

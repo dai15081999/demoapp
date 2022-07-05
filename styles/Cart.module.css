@@ -1,0 +1,126 @@
+.cart {
+    width: 976px;
+    margin: 0 auto;
+    margin-top: 50px;
+    height: 100vh;
+    padding: 10px;
+    background-color: white;
+}
+
+.items {
+    width: 100%;
+    height: 70%;
+    overflow-y: scroll;
+}
+
+.text {
+    display: flex;
+    flex: 5;
+    flex-direction: column;
+    margin-left: 7px;
+}
+
+.text .name {
+    font-size: 17px;
+    color: #252525;
+    font-weight: bold;
+}
+
+.text .desc {
+    font-size: 13px;
+    font-style: italic;
+    margin-top: 5px;
+    color: #252525;
+}
+
+.total {
+    flex: 2;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.btnx {
+    display: flex;
+    flex-direction: column;
+}
+
+.total .amount {
+    font-size: 22px;
+    color: #252525;
+    font-weight: bold;
+}
+
+.total .prices {
+    color: #cb1c22;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.item {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 9px;
+    flex: 1;
+    border-bottom: 1px solid rgb(100, 100, 100);
+    padding: 5px;
+}
+
+h1.title {
+    font-size: 25px;
+    font-weight: 200;
+    color: #252525;
+    border-bottom: 1px solid rgb(100, 100, 100);
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.cart .item img {
+    width: 80px;
+    object-fit: cover;
+}
+
+.total i {
+    color: #cd1818;
+    cursor: pointer;
+    font-size: 23px;
+    transition: .4s;
+}
+
+.total i:hover {
+  color: rgb(221, 48, 48);
+}
+
+button.buy {
+    padding: 7px;
+    border: 1px solid white;
+    border-radius: 5px;
+    width: 220px;
+    background-color: #cd1818;
+    cursor: pointer;
+    outline: none;
+    font-size: 13px;
+    font-weight: 700;
+    margin-top: 30px;
+    color: white;
+}
+
+button.buy:hover {
+    background-color: rgba(182, 69, 69, 0.877);
+}
+
+
+.totalMoney h2 {
+    font-size: 19px;
+    color:#cd1818;
+    margin-top: 20px;
+}
+.empty {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+ 

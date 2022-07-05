@@ -1,0 +1,28 @@
+.banner {
+    height: 350px;
+    display: flex;
+    width: 100%;
+}
+
+.slider {
+  width: 100%;
+  flex: 1;
+}
+
+.left {
+  flex: 1;
+  text-align: right;
+  justify-content: flex-end;
+}
+
+
+.left img {
+  height: 250px;
+}
+
+.top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}

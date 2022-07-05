@@ -1,0 +1,18 @@
+.admin_page {
+    font-size: 15px;
+    height: 90vh;
+    width: 100%;
+    margin: 10px auto 0 auto;
+}
+
+.nav_admin i {
+    font-size: 22px;
+    color: rgb(17, 47, 241);
+}
+
+.box_admin {
+    padding: 10px;
+    margin-top: 10px;
+    width: 100%;
+}
+

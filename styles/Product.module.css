@@ -1,0 +1,89 @@
+
+.product {
+    padding: 3px;
+    border-radius: 5px;
+    transition: .4s;
+    overflow: hidden;
+    border: 3px solid rgba(134, 134, 134, 0.115);
+}
+
+.product img {
+    width: 100%;
+    transition: .4s;
+    height: 190px;
+    object-fit: cover;
+    margin-bottom: 6px;
+}
+
+.product .det input {
+    width: 97%;
+    outline: none;
+    border: none;
+    padding: 7px;
+    border: 1px solid #21cd189e;
+    border-radius: 3px;
+    margin: 5px;
+}
+
+.product .det  textarea {
+    width: 97%;
+    resize: none;
+    outline: none;
+    border: none;
+    padding: 7px;
+    border: 1px solid #21cd189e;
+    border-radius: 3px;
+    margin: 5px;
+}
+
+.product .det .name{
+    font-size: 13px;
+    font-weight: 700;
+    line-height: normal;
+    color: #474c51;
+    margin-bottom: 13px;
+}
+
+.product .det .price{
+    font-size: 13px;
+    font-weight: 600;
+    line-height: normal;
+    color: #ffffff;
+    margin-bottom: 10px;
+    padding: 3px;
+    background-color:#21cd189e;
+    border-radius: 20px;
+    border: 1px solid white;
+}
+
+.product .det .brand{
+    font-size: 13px;
+    font-weight: 300;
+    line-height: normal;
+    font-style: italic;
+    margin-bottom: 4px;
+    color: #6d6d6d;
+}
+
+.options {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5px;
+}
+
+.options button{
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    border: 1px solid white;
+    background: #21cd189e;
+    cursor: pointer;
+    font-size: 10px;
+    padding: 6px;
+    color: white;
+    transition: .4s;
+}
+
+.options button:hover {
+    background-color:#21cd187b;
+}

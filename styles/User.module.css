@@ -1,0 +1,41 @@
+.user_thongke {
+    padding: 10px;
+}
+
+.user_thongke td {
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 1.1;
+    color: #cd1818;
+}
+
+.title_thongke {
+    margin-bottom: 11px;
+    color: grey;
+}
+
+.loadinguser {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+span.status {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: green;
+    text-align: center;
+    display: inline-block;
+}
+
+span.statuserr {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: rgb(255, 0, 0);
+    text-align: center;
+    display: inline-block;
+}

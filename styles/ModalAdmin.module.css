@@ -1,0 +1,78 @@
+.openmodaladmin {
+    width: 100%;
+    top: 0;
+    left: 0;
+    height: 100%;
+    position: fixed;
+    background-color: #41414124;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contentmodal {
+    width: 600px;
+    height: 400px;
+    background: white;
+    border-radius: 5px;
+    display: flex;
+    padding: 6px;
+    border-radius: 7px;
+    position: relative;
+    flex-direction: column;
+    overflow-y: scroll;
+}
+
+.items {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #373737;
+    border-bottom: 2px solid grey;
+}
+
+.items img {
+    width: 60px;
+    margin-right: 7px;
+    object-fit: cover;
+}
+
+.openmodaladmin button {
+    width: 40px;
+    padding: 7px;
+    border: none;
+    position: absolute;
+    outline: none;
+    top: 90px;
+    left: 720px;
+    cursor: pointer;
+    height: 40px;
+    background: #cd1818;
+    margin-top: 50px;
+    border-radius: 50%;
+}
+
+.openmodaladmin button i {
+    font-size: 17px;
+    color: white;
+    font-weight: bold;
+}
+
+.qty_order {
+    margin-left: 30px;
+}
+
+.price {
+    display:inline-block;
+    padding:6px 8px;
+    background-color: #cd1818;
+    color: white;
+    border-radius: 2px;
+}
+
+.nameti {
+    color: rgb(0, 110, 255);
+}
