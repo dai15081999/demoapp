@@ -55,7 +55,7 @@ const Order = () => {
     if (userInfo?.accessToken) {
       setLoading(true)
       axios
-        .get(`http://localhost:4000/api/order/getorderuser/${userInfo?.user?.id}`)
+        .get(`https://ttcsnapi.herokuapp.com/api/order/getorderuser/${userInfo?.user?.id}`)
         .then((data) => {
           setLoading(false)
           dispatch(getOrderIDsuccess(data.data))

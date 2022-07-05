@@ -35,7 +35,7 @@ const User = () => {
       (async () => {
         setLoading(true);
         const { data } = await axios.get(
-          "http://localhost:4000/api/getalluser"
+          "https://ttcsnapi.herokuapp.com/api/getalluser"
         );
         if (data) {
           setAlluser(data);

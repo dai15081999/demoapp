@@ -10,7 +10,7 @@ const userInfo = !ISSERVER ?
 const apiModule = () => {
 
     const api = axios.create({
-        baseURL: "http://localhost:4000/api",
+        baseURL: "https://ttcsnapi.herokuapp.com/api",
         headers: {
             "Content-type": "application/json",
             Accept: "application/json",

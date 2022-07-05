@@ -31,7 +31,7 @@ const Admin = () => {
     if (userInfo?.accessToken) {
       setLoading(true);
       axios
-        .get("http://localhost:4000/api/order", {
+        .get("https://ttcsnapi.herokuapp.com/api/order", {
           headers: {
             Authorization: `Bearer ${userInfo?.accessToken}`,
           },

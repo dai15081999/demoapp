@@ -57,7 +57,7 @@ const Nav = () => {
 
   useEffect(() => {
       axios
-      .get(`http://localhost:4000/api/getUser/${userInfo?.user?.id}`, {
+      .get(`https://ttcsnapi.herokuapp.com/api/getUser/${userInfo?.user?.id}`, {
       })
       .then((data) => dispatch(loginSuccess(data.data)))
       .catch((err) => console.log(err));
