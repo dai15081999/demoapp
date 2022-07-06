@@ -58,6 +58,14 @@ const Footer = () => {
               </li>
             </ul>
           </li>
+     <li className="nav__item">
+            <h2 className="nav__title">Tài khoản admin</h2>
+            <ul className="nav__ul cn">
+              <li>
+                admin@gmail.com, mk: 12345
+              </li>
+            </ul>
+          </li>
         </ul>
         <div className="legal">
           <p>© 2022</p>
